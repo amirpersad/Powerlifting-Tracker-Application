@@ -4,11 +4,11 @@ from app.database import Base
 
 class Set(Base):
     __tablename__ = "sets"
-    setID = Column(Integer, primary_key=True, index=True)
+    set_id = Column(Integer, primary_key=True, index=True)
     reps = Column(Integer, nullable=False)
     weight = Column(Float, nullable=False)
     rpe = Column(Integer, nullable=True)
-    workoutID = Column(Integer, ForeignKey("workouts.workoutID"), nullable=False)
-    exerciseID = Column(Integer, ForeignKey("exercises.exerciseID"), nullable=False)
+    workout_id = Column(Integer, ForeignKey("workouts.workout_id"), nullable=False)
+    exercise_id = Column(Integer, ForeignKey("exercises.exercise_id"), nullable=False)
     workout = relationship("Workout", back_populates="sets")
     exercise = relationship("Exercise", back_populates="sets")

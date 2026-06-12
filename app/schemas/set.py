@@ -9,8 +9,8 @@ class SetCreate(SetBase):
     pass
 
 class SetResponse(SetBase):
-    setID: int
-    workoutID: int
-    exerciseID: int
+    set_id: int
+    workout_id: int
+    exercise_id: int
     pass
     

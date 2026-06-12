@@ -9,4 +9,4 @@ class UserCreate(UserBase):
 
 class UserResponse(BaseModel):
     username: str
-    userID: int
+    user_id: int

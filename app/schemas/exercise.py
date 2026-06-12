@@ -1,14 +1,14 @@
 from pydantic import BaseModel
 
 class ExerciseBase(BaseModel):
-    exerciseName: str
+    exercise_name: str
     equipment: str
 
 class ExerciseCreate(ExerciseBase):
     pass
 
 class ExerciseResponse(BaseModel):
-    exerciseName: str
+    exercise_name: str
     equipment: str
-    exerciseID: int
-    userID: int | None = None
+    exercise_id: int
+    user_id: int | None = None
