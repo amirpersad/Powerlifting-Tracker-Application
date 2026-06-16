@@ -5,9 +5,17 @@ Cloud API Tracking, designed for powerlifters (SBD-focused) to track progression
 # Backend Stack
 Python
 FastAPI
+SQLAlchemy
+PostgreSQL
 
 # Frontend Stack
-React
+React - Next.js
+
+# Planned AWS Integrations
+RDS
+Lambda
+Cognito
+CloudFront
 
 # Goal
 Learn Backend and implement Cloud Engineering Principles as I learn them with AWS Certifications
