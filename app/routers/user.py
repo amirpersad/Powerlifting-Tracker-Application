@@ -4,25 +4,29 @@ from app.schemas.user import UserCreate, UserResponse
 router = APIRouter(prefix="/users", tags=["users"])
 
 @router.get("/")
-def getUsers():
+def get_users():
     pass
 
 @router.get("/{userID}")
-def getUser(userID: int):
+def get_user(userID: int):
     pass
 
 @router.post("/")
-def createUser(user: UserCreate):
+def create_user(user: UserCreate):
     pass
 
 @router.patch("/{userID}")
-def updateUser(userID: int, user: UserCreate):
+def update_user(userID: int, user: UserCreate):
     pass
 
 @router.delete("/{userID}")
-def deleteUser(userID: int):
+def delete_user(userID: int):
     pass
 
 @router.get("/{userID}/exercises")
-def getUserExercises(userID: int):
+def get_user_exercises(userID: int):
     pass
+
+@router.get("/{userID}/workouts")
+def get_user_workouts(userID: int):
+    pass    
