@@ -1,6 +1,6 @@
 # Powerlifting-Tracker-Application
 
-**Idea**:Cloud API Tracking, designed for powerlifters (SBD-focused) to track progression and gain insights on their main lifts as well as their accessories.
+Cloud API Tracking, designed for powerlifters (SBD-focused) to track progression and gain insights on their main lifts as well as their accessories.
 
 # Backend Stack
 Python
