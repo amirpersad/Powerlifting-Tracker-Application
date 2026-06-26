@@ -1,14 +1,14 @@
 # Powerlifting Training Tracker
 
-A personal training tracker for powerlifters — built as a hands-on project to strengthen backend and cloud engineering skills ahead of AWS certification (Cloud Practitioner → Developer Associate → Solutions Architect).
+A personal training tracker for powerlifters, built as a hands-on project to strengthen backend and cloud engineering skills ahead of AWS certification (Cloud Practitioner → Developer Associate → Solutions Architect).
 
 > **Status:** In active development. Backend schema and API structure are defined; database wiring and route logic are in progress.
 
 ## Why This Project
 
-Most tracker apps assume what users want. Before writing any code, I gathered requirements from powerlifters to understand how they actually track training today (mostly via coach-shared spreadsheets), what frustrates them about it, and what they'd actually want from a personal tool. That research shaped the scope — for example, prioritising RPE tracking and progress trends over features nobody asked for, and deliberately *not* trying to replace existing coach workflows.
+Most tracker apps assume what users want. Before writing any code, I gathered requirements from powerlifters to understand how they actually track training today (mostly via coach-shared spreadsheets), what frustrates them about it, and what they'd actually want from a personal tool. That research shaped the scope, for example, prioritising RPE tracking and progress trends over features nobody asked for, and deliberately *not* trying to replace existing coach workflows.
 
-This project is being built incrementally, with each phase mapped to a stage of my AWS certification path — the goal is for the infrastructure decisions to reflect what I'm actually learning, not just a checklist of services.
+This project is being built incrementally, with each phase mapped to a stage of my AWS certification path. The goal is for the infrastructure decisions to reflect what I'm actually learning, not just a checklist of services.
 
 ## Tech Stack
 
