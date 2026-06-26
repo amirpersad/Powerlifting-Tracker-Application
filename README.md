@@ -65,7 +65,7 @@ Each entity has separate Pydantic schemas for create vs. response payloads, so s
 ## Getting Started
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/amirpersad/Powerlifting-Tracker-Application.git
 cd powerlifting-tracker
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
